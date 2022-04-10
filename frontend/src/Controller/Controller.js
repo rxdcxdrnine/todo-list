@@ -8,10 +8,17 @@ class Controller {
     const cancel = '취소';
     const accept = '삭제';
     const alertView = new AlertView({ title, cancel, accept });
-    alertView.render();
+
+    alertView.onClickCancel(handleClickCancel);
     alertView.onClickAccept(handleClickAccept);
+
+    function handleClickCancel() {
+      alertView.render();
+    }
+
     function handleClickAccept() {
       // Todo: 추후 로직 추가
+      alertView.render();
     }
   }
 }
