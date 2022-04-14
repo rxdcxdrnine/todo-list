@@ -14,4 +14,3 @@
 ## 위키
 
 [그라운드룰, 스크럼/회의록, 협업전략 정리](https://github.com/rxdcxdrnine/todo-list/wiki)
-
